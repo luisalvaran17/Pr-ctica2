@@ -15,7 +15,7 @@ class Calculadora {
 		int numero;
 	    double numero1;
 	    double numero2;
-	    double resultado
+	    double resultado;
 		
 	public:
 		Calculadora();
@@ -27,5 +27,8 @@ class Calculadora {
 		void division ();
 		void Opciones ();
 		void Menu ();
+		
+		void setNumero1 (int numero1In);
+		void setNumero2 (int numero2In);
 };
 #endif
