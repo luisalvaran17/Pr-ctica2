@@ -51,8 +51,7 @@
 	 
 	 resultado = numero1 / numero2;
 	 cout <<"el resultado es "<< resultado << endl;
-	 }
-  
+	 } 
 	 
  void Calculadora :: setNumero1 (int numero1In){
 	 
