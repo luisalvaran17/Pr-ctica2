@@ -1,6 +1,6 @@
 /*
  * Autor: Sebastian Delgado y Luis Albaran
- * Descripción: Calculadora
+ * Descripción: Punto2
  * Fecha de modificación: 28 abril de Abril
  */
 
@@ -10,7 +10,7 @@
 using namespace std;
 
 
-void modificar(int *ptr){
+void modificar(int *&ptr){
 
 	cout <<"elevado al cuadrado es: "<< (pow(*ptr,2)) << endl;
 	
